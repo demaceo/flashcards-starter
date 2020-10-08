@@ -18,7 +18,8 @@ class Game {
 
   printQuestion(round) {
     util.main(round);
-  }
+  };
+
   start() {
     const cards = prototypeQuestions.map(card =>
       new Card(

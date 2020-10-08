@@ -19,7 +19,7 @@ class Turn {
   };
 
   giveFeedback() {
-    return this.evaluateGuess() /* === true */? 'correct!' : 'incorrect!';
+    return this.evaluateGuess() ? 'correct!' : 'incorrect!';
   }
 };
 

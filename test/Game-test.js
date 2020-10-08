@@ -10,8 +10,8 @@ const Card = require('../src/Card');
 describe('', function() {
 
   it('should instantiate cards', function() {
-
     var game = new Game();
+
     game.start();
 
     var cardsInDeck = game.currentRound.deck.cards;
@@ -19,9 +19,9 @@ describe('', function() {
     expect(cardsInDeck[0]).to.be.an.instanceof(Card);
   });
 
-  it('should create deck of cards', function() {
-
+  it('should create a deck of cards', function() {
     var game = new Game();
+
     game.start();
 
     var cardsInDeck = game.currentRound.deck.cards;
@@ -30,8 +30,8 @@ describe('', function() {
   });
 
   it('should create new Round', function() {
-
     var game = new Game();
+
     game.start();
 
     expect(game.currentRound).to.be.an.instanceof(Round);
