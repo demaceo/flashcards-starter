@@ -29,7 +29,7 @@ class Round {
     const percentCorrect = ((correctGuessCount / this.turns) * 100);
     return Math.trunc(percentCorrect);
   };
-  
+
   endRound() {
     if (this.deck.cards.length === 0) {
       return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`;
