@@ -19,6 +19,19 @@ class Game {
   printQuestion(round) {
     util.main(round);
   }
+  start() {
+    const cards = prototypeQuestions.map(card =>
+      new Card(
+        card['id'],
+        card['question'],
+        card['answers'],
+        card['correctAnswer']
+      ));
+    const deck = new Deck(cards);
+    this.currentRound = new Round(deck);
+    this.printMessage(deck, this.currentRound);
+    this.printQuestion(this.currentRound);
+  }
 };
 
 module.exports = Game;
