@@ -23,11 +23,18 @@ class Round {
     this.turns += 1;
     return this.turn.giveFeedback();
   };
+
   calculatePercentCorrect() {
     const correctGuessCount = (this.turns - this.incorrectGuesses.length);
     const percentCorrect = ((correctGuessCount / this.turns) * 100);
     return Math.trunc(percentCorrect);
   };
+  
+  endRound() {
+    if (this.deck.cards.length === 0) {
+      return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`;
+    }
+  }
 };
 
 module.exports = Round;
