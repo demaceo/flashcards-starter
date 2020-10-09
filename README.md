@@ -12,15 +12,16 @@ My goals for this project were to brush-up on and utilize concepts from Mod 1, a
 
 ## How to Play ::
 - Clone this repository to personal computer.
-- In Terminal, `cd` into this cloned repo.
-- Run `npm install` in Terminal.
-- Type `node index.js` into the Terminal.
-- Here, one by one, a series of questions will be displayed in Terminal.
+- In Terminal, `cd` into the cloned repo,
+- Run `npm install`,
+- Type `node index.js`.
+- Here, one by one, a series of questions will begin to be displayed in the Terminal.
 - Each question will have **three** answers to choose from.
-- Enter the corresponding number (`1`, `2`, or `3`) to answer the question.
-- Submit the answer by clicking the `return` key.
-- As a result, Terminal will log whether or not the answer was correct.
-- Click `return` key again to have another question be displayed.
+- To submit a guess to a question, enter a corresponding number (`1`, `2`, or `3`) to one of the three listed answers that have been logged.
+- Submit the guess by clicking the `return` key.
+- As a result, the Terminal will log whether or not the answer was correct.
+- Click the `return` key again to have another question be displayed.
+- Once there are no more questions to be asked, the Terminal will log the percentage of correct answers made by the user.
 
 ## App in Action ::
 ![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
