@@ -5,6 +5,7 @@
 ### Project Links ::
 - [Repository](https://github.com/demaceo/flashcards-starter)
 - [Project Board](https://github.com/users/demaceo/projects/3)
+- [Project Rubric](https://frontend.turing.io/projects/flash-cards.html)
 
 ## Overview & Learning Goals ::
 For this Mod 2 solo project, FlashCards, I had been given a repository with provided logic and a data set. The intended goal was to create an application to be used in terminal with operational functionality according to the rubric and provided composition.
@@ -24,5 +25,3 @@ My goals for this project were to brush-up on and utilize concepts from Mod 1, a
 
 ## App in Action ::
 ![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
-Project spec & rubric can be found [here](https://frontend.turing.io/projects/flash-cards.html).
