@@ -3,7 +3,8 @@
 - [Demaceo Howard](https://github.com/demaceo)
 
 ### Project Links ::
-- [Repo](https://github.com/demaceo/flashcards-starter)
+- [Repository](https://github.com/demaceo/flashcards-starter)
+- [Project Board](https://github.com/users/demaceo/projects/3)
 
 ## Overview & Learning Goals ::
 For this Mod 2 solo project, FlashCards, I had been given a repository with provided logic and a data set. The intended goal was to create an application to be used in terminal with operational functionality according to the rubric and provided composition.
