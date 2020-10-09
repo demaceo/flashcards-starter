@@ -22,6 +22,7 @@ My goals for this project were to brush-up on and utilize concepts from Mod 1, a
 - Submit the guess by clicking the `return` key.
 - As a result, the Terminal will log whether or not the answer was correct.
 - Click the `return` key again to have another question be displayed.
+- At the end of the round, the console will log the percentage of correct answers that the user gave.
 
 ## App in Action ::
 ![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
